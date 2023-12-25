@@ -24,3 +24,6 @@ The command-line interface is essential for effective work on your Linux laptop,
   - To exit Nano: `Ctrl + X`, press `Y` for yes to save or `N` for no, then press `Enter`
 - `history`: View all previously executed commands
 - `rm filename`: Delete a file (be cautious before deleting)
+- `man command_name`: Access the manual for a specific command
+- `sudo apt-get update`: Update package lists
+- `sudo apt-get install package_name`: Install a package
