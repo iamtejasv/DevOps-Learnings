@@ -27,3 +27,27 @@ The command-line interface is essential for effective work on your Linux laptop,
 - `man command_name`: Access the manual for a specific command
 - `sudo apt-get update`: Update package lists
 - `sudo apt-get install package_name`: Install a package
+
+## Understanding Paths in File Systems
+
+A path represents the unique location of a file or folder within an OS file system. It comprises forward slashes (/) & alphanumeric characters.
+
+## Absolute Path
+
+An absolute path defines the precise location of a file or directory from the root directory (/) of the file system. In simpler terms, it represents a complete path starting from the root of the actual file system.
+
+### Examples of Absolute Path:
+- `/home/user/documents/file.txt`
+- `/var/www/html/index.html`
+
+All these paths begin with the root directory (/), which serves as the starting point for every Linux/Unix system.
+
+## Relative Path
+
+A relative path is a path related to the present working directory (PWD). It indicates the location of a file or directory in relation to the present working directory (PWD) without providing the complete absolute path starting from the root directory.
+
+### Examples of Relative Path:
+- `../parent_directory/file.txt`
+- `subdirectory/image.jpg`
+
+A relative path is like giving directions from your current location on a map, rather than starting from the very beginning.
