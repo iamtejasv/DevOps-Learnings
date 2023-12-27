@@ -51,3 +51,22 @@ A relative path is a path related to the present working directory (PWD). It ind
 - `subdirectory/image.jpg`
 
 A relative path is like giving directions from your current location on a map, rather than starting from the very beginning.
+
+## DevOps Overview
+
+## What is DevOps?
+
+DevOps is a collaborative approach to software development that bridges the gap between development (Dev) and operations (Ops) teams. It's not just a set of tools, but a philosophy that prioritizes:
+
+- Developers and operations work together throughout the entire software lifecycle, from planning and coding to deployment and monitoring.
+- Repetitive tasks are automated freeing up time for strategic improvements.
+- Changes are delivered frequently and feedback is gathered as early as possible to ensure quality and value.
+
+## Why do we need DevOps?
+
+In today's fast-paced world, traditional software development processes are too slow and prone to errors. DevOps enables organizations to:
+
+- Deliver software faster and more frequently, adapting to changing market demands.
+- Improve software quality and reliability by catching bugs early in the development cycle.
+- Reduce costs by streamlining the development and deployment process.
+- Increase team morale and productivity by creating a more collaborative and rewarding work environment.
