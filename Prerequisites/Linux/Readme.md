@@ -78,3 +78,5 @@ DevOps enables coordination and collaboration between formerly siloed roles like
 Teams adopt DevOps culture, practices, and tools to increase confidence in the applications they build, respond better to customer needs, and achieve business goals faster. DevOps helps teams continually provide value to customers by producing better, more reliable products.
 
 For more detailed information, you can explore Microsoft's DevOps documentation on [What is DevOps?](https://learn.microsoft.com/en-us/devops/what-is-devops)
+
+### Introduction To Shell
