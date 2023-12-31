@@ -28,6 +28,15 @@ The command-line interface is essential for effective work on your Linux laptop,
 - `sudo apt-get update`: Update package lists
 - `sudo apt-get install package_name`: Install a package
 
+Commands in Linux can be generally categorized into two types:
+- Internal or Built-in commands :
+  Internal commands are part of the shell itself and come bundled with it. Common built-in commands include echo, cd, pwd, mkdir, etc.
+- External Commands :
+  External commands are binary programs or scripts which are usually located in distinct files in the system. They either come pre-installed with distribution's package manager or can be created or installed by the user.
+  Examples:
+  mv, date, uptime, cp, etc.
+  Also, use the "type" command to determine if a command is internal or external. For example, the echo command is a shell built-in, and the mv command is an external command.
+  
 ## Understanding Paths in File Systems
 
 A path represents the unique location of a file or folder within an OS file system. It comprises forward slashes (/) & alphanumeric characters.
