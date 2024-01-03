@@ -139,3 +139,6 @@ For more detailed information, you can explore Microsoft's DevOps documentation 
    
 6. **Monitoring/Observability**
 
+## Linux and Docker Fundamentals
+
+[Session Link](https://www.youtube.com/live/EUu1E_YKGTw?feature=shared)
