@@ -142,3 +142,31 @@ For more detailed information, you can explore Microsoft's DevOps documentation 
 ## Linux and Docker Fundamentals
 
 [Session Link](https://www.youtube.com/live/EUu1E_YKGTw?feature=shared)
+
+## Linux File System 
+
+### Introduction to File System Structure
+
+Linux organizes its file system in a hierarchical structure, starting from the root directory ("/"). Each directory in the system has its own purpose and contains various files and subdirectories.
+
+### Key Directories in Linux File System
+
+#### /
+
+The root directory contains all other directories and files. It is represented by `/`.
+
+#### /home
+
+Contains home directories and files for users.
+
+#### /bin
+
+Holds user command binaries such as `cat`, `echo`, etc.
+
+#### /sbin
+
+Stores system binaries, requiring sudo privileges to access.
+
+#### /usr
+
+Contains user-related data and executables.
