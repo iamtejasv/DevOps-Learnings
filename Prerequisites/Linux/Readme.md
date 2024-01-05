@@ -170,3 +170,57 @@ Stores system binaries, requiring sudo privileges to access.
 #### /usr
 
 Contains user-related data and executables.
+
+#### /usr/bin 
+Primary executables that the system needs in order to run.
+
+#### /usr/local 
+Programs installed just for that user.
+
+#### /lib 
+When executables in /bin need additional library files in order to run.
+
+#### /var 
+Variable data (temporary).
+
+#### /var/log 
+Logs are stored here usually for 30 days.
+
+#### /var/log/syslog 
+System logs.
+
+#### /var/cache 
+Cached data from programs.
+
+#### /opt 
+Programs that install everything in one directory (not separated in /bin and /lib).
+
+#### /etc 
+System-wide configurations.
+
+#### /etc/fstab 
+Controls how different filesystems are treated each time they are introduced to a system.
+
+#### /etc/hosts 
+Used to translate hostnames to IP-addresses.
+
+#### /etc/hostname 
+Name of the machine.
+
+#### /etc/sudoers 
+Specifies who can act as the superuser (sudo).
+
+#### /tmp 
+Temporary location for running processes.
+
+#### /boot 
+Do not touch - for booting the system.
+
+#### /dev 
+Devices configurations like mouse and keyboard.
+
+#### /media 
+Devices like CD or USB drive auto-mounts here.
+
+#### /mnt 
+Temporary mount points for additional filesystems.
