@@ -224,3 +224,33 @@ Devices like CD or USB drive auto-mounts here.
 
 #### /mnt 
 Temporary mount points for additional filesystems.
+
+#### CHALLENGE 1
+- Using commands inside the terminal, Find out what operating system you are running
+- Find where the system log (syslog) is in Linux. View the file once found.
+- create new user named "chris" with bash as default shell
+- create new group named "docker" and add "chris" to it
+
+```
+cd /
+pwd
+ls
+
+# find the release info
+lsb_release -a
+cat /etc/os-release
+uname -a
+lscpu
+lsmem
+
+# find syslog
+find / -name 'syslog'
+find / -iname 'syslog'
+
+# change directory to where syslog is
+cd /var/log/
+
+# view the syslog
+cat /var/log/syslog
+cat /var/log/syslog | less
+```
