@@ -228,8 +228,8 @@ Temporary mount points for additional filesystems.
 #### CHALLENGE 1
 - Using commands inside the terminal, Find out what operating system you are running
 - Find where the system log (syslog) is in Linux. View the file once found.
-- create new user named "chris" with bash as default shell
-- create new group named "docker" and add "chris" to it
+- create new user named "tejas" with bash as default shell
+- create new group named "docker" and add "tejas" to it
 
 ```
 cd /
@@ -253,4 +253,31 @@ cd /var/log/
 # view the syslog
 cat /var/log/syslog
 cat /var/log/syslog | less
+
+# View default options for new users
+# The 'man' command displays the manual for 'useradd'
+man useradd
+# 'useradd -D' displays the default options used by 'useradd'
+
+# Change the default shell for new users from Bourne shell to Bourne Again SHell (bash)
+useradd -D -s /bin/bash
+
+# Check which shell you're currently using
+echo $0   # Displays the currently running shell for the current session
+echo $SHELL  # Displays the default shell for the user
+
+# Display all available shells on the system
+cat /etc/shells   # Lists all available shells configured on the system
+
+# Create a new user 'tejas' with a home directory
+useradd -m tejas   # '-m' creates the home directory for the user
+
+# Set a password for the newly created user 'tejas'
+passwd tejas   # Prompts to set a password for the 'tejas' user
+
+# Grant sudo privileges to the 'tejas' user
+usermod -aG sudo tejas   # Adds 'tejas' to the sudo group
+
+# Switch to the 'tejas' user
+su - tejas   # Switches the current session to the 'tejas' user with their environment
 ```
