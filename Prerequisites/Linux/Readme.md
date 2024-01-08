@@ -280,4 +280,6 @@ usermod -aG sudo tejas   # Adds 'tejas' to the sudo group
 
 # Switch to the 'tejas' user
 su - tejas   # Switches the current session to the 'tejas' user with their environment
+
+# add group
 ```
