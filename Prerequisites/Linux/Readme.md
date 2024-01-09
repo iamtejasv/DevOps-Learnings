@@ -100,7 +100,9 @@ A relative path is like giving directions from your current location on a map, r
 
 ### What is DevOps?
 
-DevOps is a collaborative approach to software development that bridges the gap between development (Dev) and operations (Ops) teams. It's not just a set of tools, but a philosophy that prioritizes:
+DevOps is a collaborative approach to software development that bridges the gap between development (Dev) and operations (Ops) teams. DevOps is basically a practice or culture that improves the organizational's ability to deliver the applications. In simple words, DevOps is a process of improving the application delivery by ensuring that there is a proper automation in place with the application quality that is maintained and ensuring there is a continuous monitoring and continous testing in place. This is DevOps!
+
+It's not just a set of tools, but a philosophy that prioritizes: 
 
 - Developers and operations work together throughout the entire software lifecycle, from planning and coding to deployment and monitoring.
 - Repetitive tasks are automated, freeing up time for strategic improvements.
