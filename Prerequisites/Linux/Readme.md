@@ -125,6 +125,18 @@ Teams adopt DevOps culture, practices, and tools to increase confidence in the a
 
 For more detailed information, you can explore Microsoft's DevOps documentation on [What is DevOps?](https://learn.microsoft.com/en-us/devops/what-is-devops)
 
+### Software Development Lifecycle 
+
+#### What is SDLC ?
+ 
+It's a step-by-step process that is followed by the industry to design, build, test and deploy software. Imagine it as a series of phases, starting with planning and ending with the release of the finished product. Each phase has its own tasks and objectives, making sure the software is developed smoothly and meets the needs of its users. 
+
+The end goal is to deliver a high quality product. DevOps Engineers primarily focus on automating building, testing, and deployment phases to enhance software delivery efficiency. Their tasks include writing automation scripts to improve efficiency and reduce manual intervention.
+
+Building involves writing code and storing it in repositories like Git, followed by testing on servers and deploying the application for customer access.
+DevOps significantly improves efficiency and automation throughout the SDLC stages.
+Collaboration is vital, especially within agile methodologies and DevOps impact is felt in both cloud-based and on-premises setups.
+
 ## Fundamentals of DevOps
 
 ### Chapters:
