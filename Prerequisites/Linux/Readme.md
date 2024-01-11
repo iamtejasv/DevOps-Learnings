@@ -137,6 +137,54 @@ Building involves writing code and storing it in repositories like Git, followed
 DevOps significantly improves efficiency and automation throughout the SDLC stages.
 Collaboration is vital, especially within agile methodologies and DevOps impact is felt in both cloud-based and on-premises setups.
 
+#### What is a Server ?
+
+A server is a computer or system that is dedicated to managing network resources and providing services to other computers, known as clients, in the network. 
+
+Servers are designed to handle specific tasks such as hosting websites, managing databases, file storage, and more. They operate continuously and are optimized for performance, reliability and security.
+
+#### What is Virtualization ?
+
+Virtualization is a technology that allows a single physical computer to run multiple virtual computers, each with its own operating system and applications. Instead of relying on separate physical machines for different tasks, virtualization enables the creation of virtual machines (VMs) on a single hardware platform.
+
+#### What is Virtual Machine ?
+
+A Virtual Machine (VM) is a software-based emulation of a physical computer that runs an operating system and applications. VMs are created using virtualization technology, allowing multiple VMs to run on a single physical server. Each VM operates independently, with its own virtualized hardware resources, providing isolation and flexibility.
+
+#### What is Hypervisor ? 
+
+A hypervisor is a software that you can use to run multiple virtual machines on a single physical machine. Every virtual machine has its own operating system and applications. The hypervisor allocates the underlying physical computing resources such as CPU and memory to individual virtual machines as required.
+
+### Difference between Physical and Virtual Machines
+
+#### Physical Machines
+
+- Exist as tangible hardware components.
+- Run a single operating system directly on the physical hardware.
+- Limited scalability, as each machine requires dedicated physical resources.
+- Resource utilization may not be optimal, leading to inefficiencies.
+
+#### Virtual Machines
+
+- Exist as software-based emulations on a physical server.
+- Run multiple operating systems simultaneously on the same physical hardware.
+- Enhanced scalability, as multiple VMs can share the same physical resources.
+- Improved resource utilization, allowing for more efficient use of hardware resources.
+
+#### Advantages of Virtual Machines :
+
+- It efficiently shares and allocates resources among multiple VMs on a single physical server.
+
+- VMs operate independently, providing isolation between applications and operating systems.
+
+- VMs can be easily moved or replicated across different physical servers, offering flexibility and portability.
+
+- It dynamically allocates resources to VMs, allowing for flexible scaling based on workload demands.
+
+- Reduces hardware costs and energy consumption through the consolidation of multiple VMs on a single server.
+
+- VMs provides a controlled environment for testing and development without impacting production systems.
+
 ## Fundamentals of DevOps
 
 ### Chapters:
