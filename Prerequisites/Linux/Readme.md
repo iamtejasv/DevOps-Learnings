@@ -185,6 +185,28 @@ A hypervisor is a software that you can use to run multiple virtual machines on 
 
 - VMs provides a controlled environment for testing and development without impacting production systems.
 
+#### What is EC2 Instance ?
+
+An EC2 instance is a virtual server within Amazon Web Services (AWS) Elastic Compute Cloud (EC2), enabling users to run applications on the AWS infrastructure. 
+
+These instances offer flexibility, scalability and a variety of configurations to cater to diverse workloads and performance requirements.
+
+#### Key Characteristics :
+
+- EC2 instances are virtual machines (VMs) running on physical servers in AWS data centers.
+
+- Users can easily scale compute capacity up or down, making EC2 suitable for dynamic workloads.
+
+- AWS provides multiple instance types optimized for different use cases, including compute-optimized, memory-optimized, storage-optimized, and GPU instances.
+
+- Users can customize EC2 instances with various options such as operating systems, storage volumes, network settings, and security configurations.
+
+- EC2 follows a pay-as-you-go pricing model, allowing users to pay for the compute capacity they consume.
+
+#### Significance in AWS
+
+EC2 instances form the backbone of AWS's cloud computing services, serving as the fundamental infrastructure for deploying and running applications in the cloud.
+
 ## Fundamentals of DevOps
 
 ### Chapters:
