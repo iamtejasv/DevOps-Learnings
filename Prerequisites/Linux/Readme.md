@@ -1,12 +1,12 @@
-# Introduction
+## Introduction
 
 Linux is an operating system, with its core being a kernel that interacts with hardware, making it function and enabling program execution.
 
-## Why Command-Line Interface?
+### Why Command-Line Interface?
 
 The command-line interface is essential for effective work on your Linux laptop, providing greater functionality compared to the limitations of a graphical user interface (GUI).
 
-## Basic Linux Commands
+### Basic Linux Commands
 
 - `whoami`: Check current user
 - `touch file_name.txt`: Create a file
@@ -29,6 +29,7 @@ The command-line interface is essential for effective work on your Linux laptop,
 - `sudo apt-get install package_name`: Install a package
 
 Commands in Linux can be generally categorized into two types:
+
 - Internal or Built-in commands :
   Internal commands are part of the shell itself and come bundled with it. Common built-in commands include echo, cd, pwd, mkdir, etc.
 - External Commands :
@@ -37,7 +38,7 @@ Commands in Linux can be generally categorized into two types:
   mv, date, uptime, cp, etc.
   Also, use the "type" command to determine if a command is internal or external. For example, the echo command is a shell built-in, and the mv command is an external command.
   
-## Using command line to get help
+### Using command line to get help
 
 In this section we will learn how to use **`help`** command to get help in command line
 - If you are new to using linux or bash shell or if you are not sure which command does what, there are few commands in bash that can help get started. 
@@ -72,7 +73,7 @@ To search through the man page names and descriptions for instances of the keywo
 ```
 $ apropos modpr
 ```  
-## Understanding Paths in File Systems
+### Understanding Paths in File Systems
 
 A path represents the unique location of a file or folder within an OS file system. It comprises forward slashes (/) & alphanumeric characters.
 
@@ -96,7 +97,7 @@ A relative path is a path related to the present working directory (PWD). It ind
 
 A relative path is like giving directions from your current location on a map, rather than starting from the very beginning.
 
-## DevOps Overview
+### DevOps Overview
 
 ### What is DevOps?
 
@@ -127,7 +128,7 @@ For more detailed information, you can explore Microsoft's DevOps documentation 
 
 ### Software Development Lifecycle 
 
-#### What is SDLC ?
+### What is SDLC ?
  
 It's a step-by-step process that is followed by the industry to design, build, test and deploy software. Imagine it as a series of phases, starting with planning and ending with the release of the finished product. Each phase has its own tasks and objectives, making sure the software is developed smoothly and meets the needs of its users. 
 
@@ -137,41 +138,41 @@ Building involves writing code and storing it in repositories like Git, followed
 DevOps significantly improves efficiency and automation throughout the SDLC stages.
 Collaboration is vital, especially within agile methodologies and DevOps impact is felt in both cloud-based and on-premises setups.
 
-#### What is a Server ?
+### What is a Server ?
 
 A server is a computer or system that is dedicated to managing network resources and providing services to other computers, known as clients, in the network. 
 
 Servers are designed to handle specific tasks such as hosting websites, managing databases, file storage, and more. They operate continuously and are optimized for performance, reliability and security.
 
-#### What is Virtualization ?
+### What is Virtualization ?
 
 Virtualization is a technology that allows a single physical computer to run multiple virtual computers, each with its own operating system and applications. Instead of relying on separate physical machines for different tasks, virtualization enables the creation of virtual machines (VMs) on a single hardware platform.
 
-#### What is Virtual Machine ?
+### What is Virtual Machine ?
 
 A Virtual Machine (VM) is a software-based emulation of a physical computer that runs an operating system and applications. VMs are created using virtualization technology, allowing multiple VMs to run on a single physical server. Each VM operates independently, with its own virtualized hardware resources, providing isolation and flexibility.
 
-#### What is Hypervisor ? 
+### What is Hypervisor ? 
 
 A hypervisor is a software that you can use to run multiple virtual machines on a single physical machine. Every virtual machine has its own operating system and applications. The hypervisor allocates the underlying physical computing resources such as CPU and memory to individual virtual machines as required.
 
 ### Difference between Physical and Virtual Machines
 
-#### Physical Machines
+### Physical Machines
 
 - Exist as tangible hardware components.
 - Run a single operating system directly on the physical hardware.
 - Limited scalability, as each machine requires dedicated physical resources.
 - Resource utilization may not be optimal, leading to inefficiencies.
 
-#### Virtual Machines
+### Virtual Machines
 
 - Exist as software-based emulations on a physical server.
 - Run multiple operating systems simultaneously on the same physical hardware.
 - Enhanced scalability, as multiple VMs can share the same physical resources.
 - Improved resource utilization, allowing for more efficient use of hardware resources.
 
-#### Advantages of Virtual Machines :
+### Advantages of Virtual Machines :
 
 - It efficiently shares and allocates resources among multiple VMs on a single physical server.
 
@@ -185,13 +186,13 @@ A hypervisor is a software that you can use to run multiple virtual machines on 
 
 - VMs provides a controlled environment for testing and development without impacting production systems.
 
-#### What is EC2 Instance ?
+### What is EC2 Instance ?
 
 An EC2 instance is a virtual server within Amazon Web Services (AWS) Elastic Compute Cloud (EC2), enabling users to run applications on the AWS infrastructure. 
 
 These instances offer flexibility, scalability and a variety of configurations to cater to diverse workloads and performance requirements.
 
-#### Key Characteristics :
+### Key Characteristics :
 
 - EC2 instances are virtual machines (VMs) running on physical servers in AWS data centers.
 
@@ -203,15 +204,15 @@ These instances offer flexibility, scalability and a variety of configurations t
 
 - EC2 follows a pay-as-you-go pricing model, allowing users to pay for the compute capacity they consume.
 
-#### Significance in AWS
+### Significance in AWS
 
 EC2 instances form the backbone of AWS's cloud computing services, serving as the fundamental infrastructure for deploying and running applications in the cloud.
 
-#### What is Cloud Computing ?
+### What is Cloud Computing ?
 
 Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. Instead of buying, owning, and maintaining physical data centers and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
 
-## Fundamentals of DevOps
+### Fundamentals of DevOps
 
 ### Chapters:
 
@@ -227,11 +228,11 @@ Cloud computing is the on-demand delivery of IT resources over the Internet with
    
 6. **Monitoring/Observability**
 
-## Linux and Docker Fundamentals
+### Linux and Docker Fundamentals
 
 [Session Link](https://www.youtube.com/live/EUu1E_YKGTw?feature=shared)
 
-## Linux File System 
+### Linux File System 
 
 ### Introduction to File System Structure
 
