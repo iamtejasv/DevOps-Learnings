@@ -371,4 +371,16 @@ usermod -aG sudo tejas   # Adds 'tejas' to the sudo group
 su - tejas   # Switches the current session to the 'tejas' user with their environment
 
 # add group
+To add a new group named "docker", use the following command:
+groupadd docker
+
+# get group info
+getent group docker
+
+# add your user to the docker group
+sudo usermod -aG docker $USER
+
+# what groups user is in
+groups tejas
+cat /etc/group
 ```
