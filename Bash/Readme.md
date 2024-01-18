@@ -30,3 +30,38 @@ Use the `cd` command to change to a different directory. For instance, entering 
 - Use `.` for the current directory.
 - Use `..` for the parent directory.
 
+## File and Directory Listing
+
+### `ls` (List)
+
+The `ls` command is used to list the contents of a directory. Adding options such as `-l` provides detailed information about files and directories.
+
+### `tree`
+
+The `tree` command displays the directory structure in a tree-like format, showing the hierarchy of files and subdirectories.
+
+## File Manipulation
+
+### `touch`
+
+The `touch` command is used to create empty files. For example, `touch filename.txt` creates a new file named "filename.txt."
+
+### `mkdir` (Make Directory)
+
+Use the `mkdir` command to create a new directory. For example, `mkdir new_directory` creates a new directory named "new_directory."
+
+### `cp` (Copy) & `mv` (Move)
+
+- `cp` is used to copy files or directories. For example, `cp file.txt /path/to/destination` copies "file.txt" to the specified destination.
+- `mv` is used to move files or directories. It can also be used for renaming. For example, `mv file.txt new_file.txt` renames "file.txt" to "new_file.txt."
+
+### `rm` (Remove)
+
+The `rm` command is used to delete files or directories. Be caution with this command, as it deletes files permanently. For example, `rm file.txt` deletes "file.txt."
+
+## File Content Viewing
+
+### `cat` and `less`
+
+- `cat` displays the entire contents of a file. For example, `cat file.txt` shows the contents of "file.txt."
+- `less` allows you to view the contents of a file one screen at a time, providing better navigation for large files.
