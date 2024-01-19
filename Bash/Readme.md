@@ -65,3 +65,15 @@ The `rm` command is used to delete files or directories. Be caution with this co
 
 - `cat` displays the entire contents of a file. For example, `cat file.txt` shows the contents of "file.txt."
 - `less` allows you to view the contents of a file one screen at a time, providing better navigation for large files.
+
+## File Searching
+
+### `grep`
+
+The `grep` command is used for searching text within files. It stands for "Global Regular Expression Print". For example, `grep "keyword" file.txt` searches for the specified keyword in "file.txt". grep is powerful and can be combined with other commands and options to make your searches more flexible.
+
+## System Information
+
+### `uname`
+
+The `uname` command provides system information. It stands for "Unix Name. For example, `uname -a` displays detailed information about the system.
