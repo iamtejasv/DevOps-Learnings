@@ -41,8 +41,7 @@ Commands in Linux can be generally categorized into two types:
 ### Using command line to get help
 
 In this section we will learn how to use **`help`** command to get help in command line
-- If you are new to using linux or bash shell or if you are not sure which command does what, there are few commands in bash that can help get started. 
-- Lets take a look of those
+- If you are new to using linux or bash shell or if you are not sure which command does what, there are few commands in bash that can help get started. Lets take a look of those
 
 First command is **`whatis`** , this command will displays a one line description of a command does. 
 
