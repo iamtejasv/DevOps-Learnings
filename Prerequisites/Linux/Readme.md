@@ -215,17 +215,17 @@ Cloud computing is the on-demand delivery of IT resources over the Internet with
 
 ### Chapters:
 
-1. **Version Control System (VCS)**
+1. Version Control System (VCS)
    
-2. **Continuous Integration and Continuous Deployment (CI/CD)**
+2. Continuous Integration and Continuous Deployment (CI/CD)
    
-3. **Infrastructure as Code (IaC)**
+3. Infrastructure as Code (IaC)
    
-4. **Configuration Management**
+4. Configuration Management
    
-5. **Containerization**
+5. Containerization
    
-6. **Monitoring/Observability**
+6. Monitoring/Observability
 
 ### Linux and Docker Fundamentals
 
