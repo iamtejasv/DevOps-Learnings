@@ -49,3 +49,17 @@ In essence, cloud computing can involve both third-party providers (public cloud
 **Private Cloud:** Your own exclusive digital space.
 
 **Hybrid Cloud:** Using both your private space and the shared online space when needed.
+
+# Vocabulary in Cloud Computing
+
+## Virtualization
+
+Virtualization is the process of creating a virtual version of something, such as an operating system, server, storage, or network resources.
+
+## Virtual Machine
+
+A Virtual Machine (VM) is a software-based emulation of a physical computer. It allows running multiple operating systems on a single physical machine.
+
+## API (Application Programming Interface)
+
+API is a set of rules and protocols that allows different software applications to communicate with each other. It defines how software components should interact.
