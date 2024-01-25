@@ -63,3 +63,15 @@ A Virtual Machine (VM) is a software-based emulation of a physical computer. It 
 ## API (Application Programming Interface)
 
 API is a set of rules and protocols that allows different software applications to communicate with each other. It defines how software components should interact.
+
+## Regions
+
+Regions in cloud computing refer to geographic locations where cloud providers have data centers. Each region contains multiple data centers.
+
+## Availability Zones
+
+Availability Zones are isolated locations within a region that have their own power, cooling, and networking. They are designed to provide high availability and fault tolerance.
+
+## Scalability
+
+Scalability is the ability of a system to handle an increasing amount of work or its potential to be enlarged to accommodate that growth.
