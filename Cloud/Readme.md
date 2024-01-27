@@ -99,3 +99,9 @@ Disaster Recovery involves the planning and processes for restoring and recoveri
 ## Load Balancing
 
 Load Balancing is the distribution of network traffic or computing workload across multiple servers to ensure no single server is overwhelmed.
+
+## Azure Budgets
+
+### What are Azure Budgets?
+
+Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive alerts when expenditures approach or exceed specified thresholds.
