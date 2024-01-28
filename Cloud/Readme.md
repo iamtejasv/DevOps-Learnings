@@ -105,3 +105,9 @@ Load Balancing is the distribution of network traffic or computing workload acro
 ### What are Azure Budgets?
 
 Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive alerts when expenditures approach or exceed specified thresholds.
+
+# Azure Resource Groups
+
+## What are Azure Resource Groups?
+
+Azure Resource Groups are containers that hold related resources in Azure. These resources can include virtual machines, storage accounts, networking configurations, and more. Resource Groups provide a way to manage and organize resources efficiently.
