@@ -106,6 +106,9 @@ Load Balancing is the distribution of network traffic or computing workload acro
 
 Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive alerts when expenditures approach or exceed specified thresholds.
 
+[A Comprehensive Guide to Setting Up Your Azure Account and Acquiring Credits](https://dev.to/beingwizard/a-comprehensive-guide-to-setting-up-your-account-and-acquiring-azure-credits-15d2)
+
+
 # Azure Resource Groups
 
 ## What are Azure Resource Groups?
