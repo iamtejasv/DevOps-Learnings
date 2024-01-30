@@ -100,6 +100,24 @@ Disaster Recovery involves the planning and processes for restoring and recoveri
 
 Load Balancing is the distribution of network traffic or computing workload across multiple servers to ensure no single server is overwhelmed.
 
+# Compute, Networking and Storage in Cloud Computing
+
+Compute, Networking and Storage are the fundamental pillars of Cloud Computing serving as the backbone for the delivery of various cloud services. They work together seamlessly to provide users with a robust and scalable computing environment. Let's break down each of these components:
+
+## Compute:
+
+- It refers to the processing power used to run applications, software and workloads in the cloud.
+- Cloud providers offer various compute options such as virtual machines (VMs), containers and serverless computing allowing users to choose the right configuration for their specific needs.
+
+## Networking:
+
+- It connects different components of the cloud infrastructure and enables communication between them and involves virtual routers, switches, firewalls, and load balancers to ensure seamless and secure network traffic flow.
+
+## Storage:
+
+- It provides a secure and reliable space for storing data in the cloud.
+- Cloud storage comes in various forms including object storage, block storage and file storage catering to different data types and access needs.
+
 ## Azure Budgets
 
 ### What are Azure Budgets?
