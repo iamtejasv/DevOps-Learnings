@@ -124,11 +124,52 @@ Compute, Networking and Storage are the fundamental pillars of Cloud Computing s
 
 Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive alerts when expenditures approach or exceed specified thresholds.
 
+### Creating and Managing Budgets
+1. **Create a Budget:**
+   - Use Azure Portal or PowerShell to set up budgets.
+   - Specify limits for subscriptions, resource groups, or individual resources.
+
+2. **Manage Budgets:**
+   - Modify budgets as needed.
+   - Follow best practices for effective budget management.
+
+### Alerts
+- Configure alert thresholds to receive notifications when expenditures approach or exceed set limits.
+
 ## Cost Management
 
 ### What is Cost Management?
 
 Azure Cost Management is a comprehensive service that allows you to monitor, analyze, and optimize your cloud costs. It provides detailed insights into where your money is being spent and helps identify potential cost-saving opportunities.
+
+### Analysis and Optimization
+1. **Cost Analysis:**
+   - Review monthly costs and ensure alignment with budgetary limits.
+   - Identify abnormal service usage or cost surges.
+
+2. **Azure Budgets Integration:**
+   - Set budgets based on cost or usage.
+   - Regularly revisit budgets and make necessary adjustments.
+
+3. **Azure Pricing Calculator:**
+   - Evaluate pricing for different Azure services.
+   - Useful for planning new workloads or expanding existing ones.
+
+4. **Azure Advisor:**
+   - Leverage recommendations for cost savings, performance, and availability.
+   - Identify underutilized resources and optimize database usage.
+
+### Enabling Cost Management
+1. **Access Azure Portal:**
+   - Sign in with an enterprise administrator account.
+
+2. **Navigate to Cost Management + Billing:**
+   - Click on Billing scopes and select your billing account.
+
+3. **Configure Policies:**
+   - Enable Azure Cost Management for authorized users.
+
+Azure Budgets and Cost Management work hand-in-hand to provide a comprehensive approach to controlling and optimizing Azure expenditures. 
 
 [A Comprehensive Guide to Setting Up Your Azure Account and Acquiring Credits](https://dev.to/beingwizard/a-comprehensive-guide-to-setting-up-your-account-and-acquiring-azure-credits-15d2)
 
