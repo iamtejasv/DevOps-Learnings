@@ -118,6 +118,14 @@ Compute, Networking and Storage are the fundamental pillars of Cloud Computing s
 - It provides a secure and reliable space for storing data in the cloud.
 - Cloud storage comes in various forms including object storage, block storage and file storage catering to different data types and access needs.
 
+## On-Premises 
+
+On-premises or on prem refers to computing resources such as servers and software that are owned, operated & physically located within an organization's own facilities or data centers. This means the organization has direct control over the hardware, software & infrastructure used for their IT operations.
+
+## Cloud
+
+Cloud computing involves accessing and utilizing computing resources (such as servers, storage, databases) over the internet, provided by Cloud Service Providers (CSP).
+
 ## Azure Budgets
 
 ### What are Azure Budgets?
