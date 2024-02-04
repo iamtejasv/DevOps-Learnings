@@ -10,13 +10,18 @@ Begin your Azure journey by watching this playlist.
 
 In simpler terms, imagine the cloud as a vast, virtual space where you can store files, run software, and access various services over the internet. 
 
-It's like having a powerful computer somewhere out there on the web that you can use for tasks without needing to own or physically manage the hardware. This allows users to access data and applications from anywhere with an internet connection.
+It's like having a powerful computer somewhere out there on the web that you can use for tasks without needing to own or physically manage the hardware. This allows users to access data and applications
+from anywhere with an internet connection.
 
 ## What is Cloud Computing ?
 
-Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted in data centers located around the world.
+Cloud computing is a technology model that involves the delivery of computing services over the internet. Instead of owning and maintaining physical servers and infrastructure, users can access and use
+computing resources, applications, and storage provided by either third-party service providers (public cloud) or their own organization (private cloud) through the internet. These services are hosted
+in data centers located around the world.
 
-In essence, cloud computing can involve both third-party providers (public cloud) and an organization's internal resources (private cloud). The distinction lies in whether the computing resources are shared among multiple customers (public cloud) or dedicated to a single organization (private cloud). The flexibility of cloud computing allows organizations to choose the deployment model that best aligns with their needs and requirements.
+In essence, cloud computing can involve both third-party providers (public cloud) and an organization's internal resources (private cloud). The distinction lies in whether the computing resources are
+shared among multiple customers (public cloud) or dedicated to a single organization (private cloud). The flexibility of cloud computing allows organizations to choose the deployment model that best
+aligns with their needs and requirements.
 
 ## Public Cloud:
 
@@ -102,7 +107,8 @@ Load Balancing is the distribution of network traffic or computing workload acro
 
 # Compute, Networking and Storage in Cloud Computing
 
-Compute, Networking and Storage are the fundamental pillars of Cloud Computing serving as the backbone for the delivery of various cloud services. They work together seamlessly to provide users with a robust and scalable computing environment. Let's break down each of these components:
+Compute, Networking and Storage are the fundamental pillars of Cloud Computing serving as the backbone for the delivery of various cloud services. They work together seamlessly to provide users with a
+robust and scalable computing environment. Let's break down each of these components:
 
 ## Compute:
 
@@ -111,7 +117,8 @@ Compute, Networking and Storage are the fundamental pillars of Cloud Computing s
 
 ## Networking:
 
-- It connects different components of the cloud infrastructure and enables communication between them and involves virtual routers, switches, firewalls, and load balancers to ensure seamless and secure network traffic flow.
+- It connects different components of the cloud infrastructure and enables communication between them and involves virtual routers, switches, firewalls, and load balancers to ensure seamless and secure
+network traffic flow.
 
 ## Storage:
 
@@ -120,7 +127,8 @@ Compute, Networking and Storage are the fundamental pillars of Cloud Computing s
 
 ## On-Premises 
 
-On-premises or on prem refers to computing resources such as servers and software that are owned, operated & physically located within an organization's own facilities or data centers. This means the organization has direct control over the hardware, software & infrastructure used for their IT operations.
+On-premises or on prem refers to computing resources such as servers and software that are owned, operated & physically located within an organization's own facilities or data centers. This means the
+organization has direct control over the hardware, software & infrastructure used for their IT operations.
 
 ## Cloud
 
@@ -130,7 +138,8 @@ Cloud computing involves accessing and utilizing computing resources (such as se
 
 ### What are Azure Budgets?
 
-Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive alerts when expenditures approach or exceed specified thresholds.
+Azure Budgets allow you to set spending limits on your Azure subscriptions, resource groups, or even individual resources. By defining budgets, you gain better control over your costs and can receive
+alerts when expenditures approach or exceed specified thresholds.
 
 ### Creating and Managing Budgets
 1. **Create a Budget:**
@@ -148,7 +157,8 @@ Azure Budgets allow you to set spending limits on your Azure subscriptions, reso
 
 ### What is Cost Management?
 
-Azure Cost Management is a comprehensive service that allows you to monitor, analyze, and optimize your cloud costs. It provides detailed insights into where your money is being spent and helps identify potential cost-saving opportunities.
+Azure Cost Management is a comprehensive service that allows you to monitor, analyze, and optimize your cloud costs. It provides detailed insights into where your money is being spent and helps identify
+potential cost-saving opportunities.
 
 ### Analysis and Optimization
 1. **Cost Analysis:**
@@ -185,4 +195,24 @@ Azure Budgets and Cost Management work hand-in-hand to provide a comprehensive a
 
 ## What are Azure Resource Groups?
 
-Azure Resource Groups are containers that hold related resources in Azure. These resources can include virtual machines, storage accounts, networking configurations, and more. Resource Groups provide a way to manage and organize resources efficiently.
+Azure Resource Groups are containers that hold related resources in Azure. These resources can include virtual machines, storage accounts, networking configurations, and more. Resource Groups provide a
+way to manage and organize resources efficiently.
+
+## Key Characteristics
+
+1. Resource Groups provide a way to logically organize and manage resources based on your needs. For example, you might create a Resource Group for a specific project, environment (e.g., production,
+staging, development), or application.
+
+2. Resources within a Resource Group share a common lifecycle. When you delete a Resource Group, all of its resources are also deleted. This simplifies resource management and cleanup.
+
+3. You can apply access control to a Resource Group, making it easier to manage permissions for a set of resources. This allows you to control who can deploy, manage, or delete resources within a
+specific Resource Group.
+
+4. You can assign tags to a Resource Group, making it easier to categorize, filter, and track resources based on specific attributes.
+
+5. Azure resources are often deployed to a Resource Group. When you create a resource, you specify the target Resource Group, and all related resources are provisioned within that group.
+
+## Creating a Resource Group
+
+To create a Resource Group, you typically use the Azure Portal, Azure CLI (Command-Line Interface), PowerShell, or templates (such as Azure Resource Manager templates) to define and deploy the required
+resources within the group.
